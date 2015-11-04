@@ -1,0 +1,99 @@
+div.text{
+	padding: 100px 0;
+}
+div#PH1 {
+	float: right;
+}
+div#PH1 a{
+	color:#5c5c5c !important;
+	background-image: url("images/side_menu_sprite.png");
+	width:110;
+	background-position: 244px 0px;
+	display: block;
+	font-family: Arial;
+	font-size: 13px;
+	height: 36px;
+	margin-bottom: 4px;
+	padding-right: 12px;
+	
+}
+div#PH1 a:hover{
+	background-image: url("images/side_menu_sprite.png");
+	background-position: 121px 0px;
+}
+div#PH1 ul{
+	padding: 0px;
+}
+div#PH1 span{
+	line-height: 33px;
+}
+div#PH1 li{
+	list-style-type: none;
+}
+div#PH2{
+    float: right;
+  	width:440;
+    margin-right: 24px;
+    color: #72716d;
+    font-size: 12px;
+    width: 440px;
+    line-height: 1.4;
+}
+div#PH2 h1{
+	font-size:1.2em;
+	border-bottom: 1px solid #cbcbcb;
+}
+div#PH2 h2{
+	color: #005ca0;
+	font-size: 1.01em;
+}
+div#PH2 p{
+	text-align: justify;
+}
+div#PH2 a{
+	color: #5c5c5c;
+	font-family: Arial;
+}
+div#PH3{
+	float: right;
+	background-color: black;
+	height: 169px;
+	width:292px;
+	margin-right: 20px;
+    margin-top: 44px;
+    color:#72716D;
+	background: url('images/cube_bg.png') no-repeat 0 0;
+}
+div#PH3 h3{
+	color: #005CA0;
+	font-size: 1.2em;
+	    margin-right: 25px;
+    margin-top: 18px;
+}
+div#PH3 h4{
+	margin: 0;
+	color: #005CA0;
+}
+div#PH3 p{
+	margin: 0;
+	margin-bottom: 10px;
+}
+.box-content{
+	width: 244px;
+    margin: auto;
+}
+div#PH3 a{
+	color: blue;
+	font-weight: bold;
+}
+
+@media screen and (max-width:600px){
+	div#PH1, div#PH2, div#PH3{
+		clear: both;
+	}
+	div#PH1{
+		display: none;
+	}
+	
+	
+}

@@ -1,0 +1,71 @@
+div#PH2 #contact{
+	background: url('images/contact_form_bg.png') no-repeat;
+	width: 385px;
+	height: 356px;
+	padding-top: 4px;
+}
+div#contact .content{
+	width: 330px;
+	margin: auto;
+	margin-top: 20px;
+}
+div#contact h3{
+	color:#005CA0;
+}
+div#contact form{
+	width: 250px;
+	margin: auto;
+}
+.line{
+	margin-bottom: 8px;
+}
+.line input{
+	float: left;
+}
+textarea{
+	width: 100%;
+}
+button{
+	color: white;
+	background: blue;
+	float: left;
+	margin-top:10px;
+}
+div#PH4{
+	float: right;
+	background-color: black;
+	height: 169px;
+	width:292px;
+	margin-right: 20px;
+    margin-top: 44px;
+    color: #72716D;
+	background: url('images/cube_bg.png') no-repeat;
+}
+div#PH4 h3{
+	color: #005CA0;
+	font-size: 1.2em;
+	    margin-right: 25px;
+    margin-top: 18px;
+}
+div#PH4 h4{
+	margin: 0;
+	color: #005CA0;
+}
+div#PH4 p{
+	margin: 0;
+	margin-bottom: 10px;
+}
+div#PH4 #history{
+	width: 244px;
+    margin: auto;
+}
+div#PH4 a{
+	color: blue;
+	font-weight: bold;
+}
+
+@media screen and (max-width:600px){
+	div#PH4{
+		clear: both;
+	}
+}
